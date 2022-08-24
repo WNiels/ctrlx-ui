@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" type="light" variant="rexroth-gray-light">
+  <b-container>
+    <b-navbar ver toggleable="lg" type="light" variant="rexroth-gray-light">
+
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
@@ -10,23 +11,23 @@
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
-          <b-button size="lg" to="/" exact :active="$route.name == 'home'">Home</b-button>
+          <b-button size="lg">Home</b-button>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
-          <b-button size="lg" to="/diagnostics" exact :active="$route.name == 'diagnostics'">Diagnostics</b-button>
+          <b-button size="lg">Diagnostics</b-button>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
-          <b-button size="lg" to="/commissioning" exact :active="$route.name == 'commissioning'">Commissioning</b-button>
+          <b-button size="lg">Commissioning</b-button>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
-          <b-button size="lg" to="/settings" exact :active="$route.name == 'settings'">Settings</b-button>
+          <b-button size="lg">Settings</b-button>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-  </div>
+  </b-container>
 </template>
 
 <script>

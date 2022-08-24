@@ -1,7 +1,13 @@
 <template>
-  <b-container fluid class="pr-5">
-    <h2 class="ml-4 mt-4">Page3</h2>
-  </b-container>
+  <div>
+    <b-card no-body>
+      <b-tabs pills card vertical end>
+        <b-tab title="Tab 1" active><b-card-text>Tab contents 1</b-card-text></b-tab>
+        <b-tab title="Tab 2"><b-card-text>Tab contents 2</b-card-text></b-tab>
+        <b-tab title="Tab 3"><b-card-text>Tab contents 3</b-card-text></b-tab>
+      </b-tabs>
+    </b-card>
+  </div>
 </template>
 
 <script>

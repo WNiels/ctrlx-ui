@@ -17,8 +17,8 @@ Vue.component("VueJsonPretty", VueJsonPretty);
 import { Uib, uibuilder } from "./../../../node_modules/node-red-contrib-uibuilder/front-end/uibuilder.esm.js";
 // window.uibuilder = uibuilder;
 // uibuilder.logLevel = 5
-uibuilder.start({ ioNamespace: "https://192.168.0.7:1880/navbar", loadStylesheet: false });
-// uibuilder.start("https://192.168.0.7:1880/ctrlxui");
+// uibuilder.start({ ioNamespace: "https://192.168.0.7:1880/ctrlxui", loadStylesheet: false });
+uibuilder.start("https://192.168.0.7:1880/ctrlxui");
 // uibuilder.debug(false)
 
 // Enable Vue Devtools

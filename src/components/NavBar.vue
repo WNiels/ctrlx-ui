@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar toggleable="lg" type="light" variant="rexroth-gray">
       <b-navbar-brand href="#">
         <b-img width="112" left fluid :src="require('../Logo_of_Bosch_Rexroth_AG.png')" class="d-inline-block align-top" alt="Bosch Rexroth logo"/>
       </b-navbar-brand>

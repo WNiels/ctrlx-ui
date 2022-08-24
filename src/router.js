@@ -3,11 +3,11 @@ import VueRouter from "vue-router";
 
 // Pages
 import Home from "./components/Home.vue";
-import Page1 from "./components/Page1.vue";
-import Page2 from "./components/Page2.vue";
-import Page3 from "./components/Page3.vue";
-import Page4a from "./components/Page4a.vue";
-import Page4b from "./components/Page4b.vue";
+import Diagnostics from "./components/diagnostics.vue";
+import Commissioning from "./components/commissioning.vue";
+import Settings from "./components/settings.vue";
+// import Page4a from "./components/Page4a.vue";
+// import Page4b from "./components/Page4b.vue";
 
 
 Vue.use(VueRouter);
@@ -22,25 +22,25 @@ const router = new VueRouter({
       component: Home,
     },
     {
-      path: "/page1",
-      component: Page1,
+      path: "/diagnostics",
+      component: Diagnostics,
     },
     {
-      path: "/page2",
-      component: Page2,
+      path: "/commissioning",
+      component: Commissioning,
     },
     {
-      path: "/page3",
-      component: Page3,
+      path: "/settings",
+      component: Settings,
     },
-    {
-      path: "/page4a",
-      component: Page4a,
-    },
-    {
-      path: "/page4b",
-      component: Page4b,
-    },
+    // {
+    //   path: "/page4a",
+    //   component: Page4a,
+    // },
+    // {
+    //   path: "/page4b",
+    //   component: Page4b,
+    // },
     {
       path: "*",
       redirect: "/",
